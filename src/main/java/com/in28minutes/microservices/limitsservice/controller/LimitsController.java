@@ -26,4 +26,18 @@ public class LimitsController {
 				configuration.getMaximum());
 //		return new Limits(1,1000);
 	}
+	
+	public Limits retrieveLimitsAA() {
+		System.out.println("Hiii3");
+		return new Limits(configuration.getMinimum(), 
+				configuration.getMaximum());
+//		return new Limits(1,1000);
+	}
+	
+	public Limits retrieveLimitsBB() {
+		System.out.println("Hiii3");
+		return new Limits(configuration.getMinimum(), 
+				configuration.getMaximum());
+//		return new Limits(1,1000);
+	}
 }
