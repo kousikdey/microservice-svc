@@ -18,6 +18,22 @@ public class LimitsController {
 		//comment add
 		int k = 6;
 		int t =7;
+		System.out.println("Hiii");
+		return new Limits(configuration.getMinimum(), 
+				configuration.getMaximum());
+//		return new Limits(1,1000);
+	}
+	
+	
+	public Limits retrieveLimits2() {
+		System.out.println("Hiii2");
+		return new Limits(configuration.getMinimum(), 
+				configuration.getMaximum());
+//		return new Limits(1,1000);
+	}
+	
+	public Limits retrieveLimits4() {
+		System.out.println("Hiii4");
 		return new Limits(configuration.getMinimum(), 
 				configuration.getMaximum());
 //		return new Limits(1,1000);
