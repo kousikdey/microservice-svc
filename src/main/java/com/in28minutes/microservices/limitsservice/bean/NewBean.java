@@ -3,6 +3,7 @@ package com.in28minutes.microservices.limitsservice.bean;
 public class NewBean {
 	private int minimum;
 	private int maximum;
+	private String add;
 
 	public NewBean() {
 		super();
@@ -28,6 +29,14 @@ public class NewBean {
 
 	public void setMaximum(int maximum) {
 		this.maximum = maximum;
+	}
+
+	public String getAdd() {
+		return add;
+	}
+
+	public void setAdd(String add) {
+		this.add = add;
 	}
 
 }
