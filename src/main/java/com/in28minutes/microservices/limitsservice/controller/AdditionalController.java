@@ -44,4 +44,11 @@ public class AdditionalController {
 //		return new Limits(1,1000);
 	}
 	
+	public Limits addds5() {
+		System.out.println("Hiii5Edit");
+		return new Limits(configuration.getMinimum(), 
+				configuration.getMaximum());
+//		return new Limits(1,1000);
+	}
+	
 }
