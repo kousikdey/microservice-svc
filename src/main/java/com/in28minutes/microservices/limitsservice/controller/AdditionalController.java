@@ -22,5 +22,4 @@ public class AdditionalController {
 				configuration.getMaximum());
 //		return new Limits(1,1000);
 	}
-
 }
