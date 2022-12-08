@@ -13,15 +13,14 @@ public class LimitsController {
 	@Autowired
 	private Configuration configuration;
 
+
 	@GetMapping("/limits")
 	public Limits retrieveLimits() {
 		//comment add
 		int k = 6;
 		int t =7;
+		System.out.println("New line");
 		System.out.println("Hiii");
-		for(int i=0; i<11; i++) {
-			System.out.println(i);
-		}
 		return new Limits(configuration.getMinimum(), 
 				configuration.getMaximum());
 //		return new Limits(1,1000);
@@ -41,7 +40,6 @@ public class LimitsController {
 				configuration.getMaximum());
 //		return new Limits(1,1000);
 	}
-	
 	
 	public Limits retrieveLimits3() {
 		System.out.println("Hiii3");
