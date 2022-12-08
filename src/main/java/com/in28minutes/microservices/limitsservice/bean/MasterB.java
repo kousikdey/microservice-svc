@@ -3,6 +3,9 @@ package com.in28minutes.microservices.limitsservice.bean;
 public class MasterB {
 	private int minimum;
 	private int maximum;
+	
+	private String data;
+
 
 	public MasterB() {
 		super();
@@ -25,9 +28,18 @@ public class MasterB {
 	public int getMaximum() {
 		return maximum;
 	}
-
+	
+	
 	public void setMaximum(int maximum) {
 		this.maximum = maximum;
+	}
+	
+	public void setData(String data) {
+		this.data = data;
+	}
+
+	public String getData() {
+		return data;
 	}
 
 }
