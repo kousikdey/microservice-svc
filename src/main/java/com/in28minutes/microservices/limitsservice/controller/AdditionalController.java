@@ -17,31 +17,9 @@ public class AdditionalController {
 	public Limits addds() {
 		System.out.println("Hiii");
 		System.out.println("HiiiAdd");
+		System.out.println("HiiiFeature");
 		return new Limits(configuration.getMinimum(), 
 				configuration.getMaximum());
 //		return new Limits(1,1000);
 	}
-	
-	
-	public Limits addds2() {
-		System.out.println("Hiii2");
-		return new Limits(configuration.getMinimum(), 
-				configuration.getMaximum());
-//		return new Limits(1,1000);
-	}
-	
-	public Limits addds4() {
-		System.out.println("Hiii4");
-		return new Limits(configuration.getMinimum(), 
-				configuration.getMaximum());
-//		return new Limits(1,1000);
-	}
-	
-	public Limits addds3() {
-		System.out.println("Hiii3MasterFix");
-		return new Limits(configuration.getMinimum(), 
-				configuration.getMaximum());
-//		return new Limits(1,1000);
-	}
-	
 }
