@@ -1,12 +1,11 @@
 package com.in28minutes.microservices.limitsservice.bean;
 
-public class MasterB {
+public class FeatureB {
 	private int minimum;
 	private int maximum;
 	
-	private String minimumT;
-	private String maximumT;
 	private String data;
+
 
 	public MasterB() {
 		super();
@@ -33,22 +32,6 @@ public class MasterB {
 	
 	public void setMaximum(int maximum) {
 		this.maximum = maximum;
-	}
-	
-	public String getMinimumT() {
-		return minimumT;
-	}
-
-	public void setMinimumT(String minimumT) {
-		this.minimumT = minimumT;
-	}
-
-	public String getMaximumT() {
-		return maximumT;
-	}
-
-	public void setMaximumT(String maximumT) {
-		this.maximumT = maximumT;
 	}
 	
 	public void setData(String data) {
