@@ -16,6 +16,7 @@ public class AdditionalController {
 	@GetMapping("/adds")
 	public Limits addds() {
 		System.out.println("Hiii");
+		System.out.println("HiiiFeature");
 		return new Limits(configuration.getMinimum(), 
 				configuration.getMaximum());
 //		return new Limits(1,1000);
