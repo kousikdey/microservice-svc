@@ -8,13 +8,13 @@ import com.in28minutes.microservices.limitsservice.bean.Limits;
 import com.in28minutes.microservices.limitsservice.configuration.Configuration;
 
 @RestController
-public class LimitsController {
+public class FeatureController {
 
 	@Autowired
 	private Configuration configuration;
 
-	@GetMapping("/limits")
-	public Limits retrieveLimits() {
+	@GetMapping("/feature")
+	public Limits feature() {
 		//comment add
 		int k = 6;
 		int t =7;
@@ -28,14 +28,14 @@ public class LimitsController {
 	}
 	
 	
-	public Limits retrieveLimits2() {
+	public Limits feature2() {
 		System.out.println("Hiii2");
 		return new Limits(configuration.getMinimum(), 
 				configuration.getMaximum());
 //		return new Limits(1,1000);
 	}
 	
-	public Limits retrieveLimits4() {
+	public Limits feature4() {
 		System.out.println("Hiii4");
 		return new Limits(configuration.getMinimum(), 
 				configuration.getMaximum());
@@ -43,21 +43,21 @@ public class LimitsController {
 	}
 	
 	
-	public Limits retrieveLimits3() {
+	public Limits feature3() {
 		System.out.println("Hiii3");
 		return new Limits(configuration.getMinimum(), 
 				configuration.getMaximum());
 //		return new Limits(1,1000);
 	}
 	
-	public Limits retrieveLimitsAA() {
+	public Limits featureAA() {
 		System.out.println("Hiii3");
 		return new Limits(configuration.getMinimum(), 
 				configuration.getMaximum());
 //		return new Limits(1,1000);
 	}
 	
-	public Limits retrieveLimitsBB() {
+	public Limits featureBB() {
 		System.out.println("Hiii3");
 		return new Limits(configuration.getMinimum(), 
 				configuration.getMaximum());

@@ -1,16 +1,16 @@
 package com.in28minutes.microservices.limitsservice.bean;
 
-public class Limits {
+public class NewFbean {
 	private int minimum;
 	private int maximum;
 	private String minimumText;
 	private String maximumText;
 
-	public Limits() {
+	public NewFbean() {
 		super();
 	}
 
-	public Limits(int minimum, int maximum) {
+	public NewFbean(int minimum, int maximum) {
 		super();
 		this.minimum = minimum;
 		this.maximum = maximum;
