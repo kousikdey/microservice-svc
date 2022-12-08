@@ -5,6 +5,9 @@ public class Limits {
 	private int maximum;
 	private String minimumText;
 	private String maximumText;
+	
+	private int longitude;
+	private int latitude;
 
 	public Limits() {
 		super();
@@ -46,6 +49,21 @@ public class Limits {
 
 	public void setMaximumText(String maximumText) {
 		this.maximumText = maximumText;
+	}
+	public int getLongitude() {
+		return longitude;
+	}
+
+	public void setLongitude(int longitude) {
+		this.longitude = longitude;
+	}
+
+	public int getLatitude() {
+		return latitude;
+	}
+
+	public void setLatitude(int latitude) {
+		this.latitude = latitude;
 	}
 
 }
