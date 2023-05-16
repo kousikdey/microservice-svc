@@ -14,6 +14,7 @@ public class LimitsServiceApplication {
 	
 	@Bean
 	public RestTemplate restClient() {
+		System.out.println("hi feature kd");
 		return new RestTemplate();
 	}
 
