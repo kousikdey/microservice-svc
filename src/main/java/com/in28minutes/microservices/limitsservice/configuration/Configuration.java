@@ -6,23 +6,32 @@ import org.springframework.stereotype.Component;
 @Component
 @ConfigurationProperties("limits-service")
 public class Configuration {
-	private int minimum;
-	private int maximum;
+	private long minimum;
+	private long maximum;
+	private int maximumMaster;
 
-	public int getMinimum() {
+	public long getMinimum() {
 		return minimum;
 	}
 
-	public void setMinimum(int minimum) {
+	public void setMinimum(long minimum) {
 		this.minimum = minimum;
 	}
 
-	public int getMaximum() {
+	public long getMaximum() {
 		return maximum;
 	}
 
-	public void setMaximum(int maximum) {
+	public void setMaximum(long maximum) {
 		this.maximum = maximum;
+	}
+	
+	public long getMaximumMaster() {
+		return maximumMaster;
+	}
+
+	public void setMaximumMaster(int maximumMaster) {
+		this.maximumMaster = maximumMaster;
 	}
 
 }
