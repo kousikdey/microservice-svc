@@ -9,6 +9,7 @@ public class Configuration {
 	private long minimum;
 	private long maximum;
 	private int maximumMaster;
+	private int maximum2;
 
 	public long getMinimum() {
 		return minimum;
@@ -16,6 +17,14 @@ public class Configuration {
 
 	public void setMinimum(long minimum) {
 		this.minimum = minimum;
+	}
+	
+	public int getMaximum2() {
+		return maximum2;
+	}
+
+	public void setMaximum2(int maximum2) {
+		this.maximum2 = maximum2;
 	}
 
 	public long getMaximum() {
