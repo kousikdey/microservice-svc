@@ -5,9 +5,11 @@ public class Limits {
 	private int maximum;
 	
 	private int longitude;
+	private int longitude2;
 	private int latitude;
 
 	public Limits() {
+		//added comments here - kd
 		super();
 	}
 
@@ -39,6 +41,14 @@ public class Limits {
 
 	public void setLongitude(int longitude) {
 		this.longitude = longitude;
+	}
+	
+	public int getLongitude2() {
+		return longitude2;
+	}
+
+	public void setLongitude2(int longitude2) {
+		this.longitude2 = longitude2;
 	}
 
 	public int getLatitude() {
