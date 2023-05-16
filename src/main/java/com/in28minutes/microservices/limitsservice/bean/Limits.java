@@ -4,7 +4,7 @@ public class Limits {
 	private int minimum;
 	private int maximum;
 	
-	private int longitude;
+	private long longitude;
 	private int longitude2;
 	private int latitude;
 
@@ -14,6 +14,7 @@ public class Limits {
 	}
 
 	public Limits(int minimum, int maximum) {
+		//we will use this
 		super();
 		this.minimum = minimum;
 		this.maximum = maximum;
@@ -35,11 +36,11 @@ public class Limits {
 		this.maximum = maximum;
 	}
 
-	public int getLongitude() {
+	public long getLongitude() {
 		return longitude;
 	}
 
-	public void setLongitude(int longitude) {
+	public void setLongitude(long longitude) {
 		this.longitude = longitude;
 	}
 	
